@@ -3,7 +3,7 @@
   "version": 1, 
   "newProjectRoot": "projects",
   "projects": {
-    "onlineshopping2020": {
+    "onlineshopangular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/onlineshopping2020",
+            "outputPath": "dist/onlineshopangular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "onlineshopping2020:build"
+            "browserTarget": "onlineshopangular:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "onlineshopping2020:build:production"
+              "browserTarget": "onlineshopangular:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "onlineshopping2020:build"
+            "browserTarget": "onlineshopangular:build"
           }
         },
         "test": {
@@ -110,15 +110,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "onlineshopping2020:serve"
+            "devServerTarget": "onlineshopangular:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "onlineshopping2020:serve:production"
+              "devServerTarget": "onlineshopangular:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "onlineshopping2020"
+  "defaultProject": "onlineshopangular"
 }
