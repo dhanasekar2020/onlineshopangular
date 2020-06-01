@@ -8,12 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "heroku-postbuild": "npm run build",
-    
-
     "preinstall": "npm link @angular/cli ",
     "postinstall": "",
-    
-    
     "e2e": "ng e2e"
   },
   "private": true,
@@ -26,9 +22,10 @@
     "@angular/platform-browser": "~9.0.5",
     "@angular/platform-browser-dynamic": "~9.0.5",
     "@angular/router": "~9.0.5",
-    "package-lock-only": "0.0.4",
     "core-js": "^2.5.4",
+    "package-lock-only": "0.0.4",
     "rxjs": "~6.5.4",
+    "symbol-observable": "^1.2.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
